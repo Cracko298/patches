@@ -21,5 +21,5 @@ Game Patches for Minecraft 3DS. Customizing many features of the Game.
 
 * Adding 0x100000 to each offset to get address' in Memory.
 * Each Offset/Address is in Big Endian (BE).
-* These are all code.bin offsets.
+* These are all 'code.bin' offsets/configurations.
 ```
