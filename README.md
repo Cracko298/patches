@@ -11,6 +11,7 @@ Game Patches for Minecraft 3DS. Customizing many features of the Game.
 0x2CEE80                       = Camera FOV
 0x0A279C                       = Game Saturation per-weather
 
-*Adding 0x100000 to each offset to get address' in Memory.
-**These are bare code.bin offsets.
+* Each Offset/Address is a 32-Bit Floating Point Number in Big Endian.
+* Adding 0x100000 to each offset to get address' in Memory.
+* These are all code.bin offsets.
 ```
