@@ -23,3 +23,8 @@ Game Patches for Minecraft 3DS. Customizing many features of the Game.
 * Each Offset/Address' Values are in Big Endian (BE).
 * These are all 'code.bin' offsets/configurations.
 ```
+
+## Credits:
+- [Cracko298](https://github.com/Cracko298)
+- [Minecraft 3DS Community](https://github.com/Minecraft-3DS-Community)
+- [FLIPS (Floating IPS)](https://github.com/Alcaro/Flips)
