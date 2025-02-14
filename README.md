@@ -20,6 +20,6 @@ Game Patches for Minecraft 3DS. Customizing many features of the Game.
 0x9338C0                       = Elder Guardian Count         | Default Value: 0      | 32-Bit Standard Bytes
 
 * Adding 0x100000 to each offset to get address' in Memory.
-* Each Offset/Address is in Big Endian (BE).
+* Each Offset/Address' Value is in Big Endian (BE).
 * These are all 'code.bin' offsets/configurations.
 ```
