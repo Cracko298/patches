@@ -9,4 +9,7 @@ Game Patches for Minecraft 3DS. Customizing many features of the Game.
 0x2C5398                       = Cloud Height
 0x00B4D4                       = Camera Sensitivity
 0x2CEE80                       = Camera FOV
+
+*Adding 0x100000 to each offset to get address' in Memory.
+**These are bare code.bin offsets.
 ```
