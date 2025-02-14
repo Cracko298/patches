@@ -7,7 +7,7 @@ Game Patches for Minecraft 3DS. Customizing many features of the Game.
 0x2CF2A0                       = ViewBobbing Sensitivity          | Default Value: 5.0
 0x54FB68                       = Player Reach                     | Default Value: 5.623
 0x2C5398                       = Cloud Height                     | Default Value: 0.33
-0x00B4D4                       = Camera Sensitivity               | Default Value: 1.0
+0x00B4D4                       = Camera Sensitivity               | Default Value: 3.0
 0x2CEE80                       = Camera FOV                       | Default Value: 70.0
 0x0A279C                       = Game Saturation per-weather      | Default Value: 5.0
 
