@@ -32,8 +32,9 @@ Game Patches for Minecraft 3DS. Customizing many features of the Game.
 * These are all 'code.bin' offsets/configurations.
 ```
 
+### Address' Usage:
+- If you used this guide/table to make your own Patches/Cheats. Please credit them properly, thanks! -Cracko298
+
 ## Credits:
 - [Cracko298](https://github.com/Cracko298).
 - [FLIPS (Floating IPS)](https://github.com/Alcaro/Flips).
-- [Minecraft 3DS Community](https://github.com/Minecraft-3DS-Community).
-
