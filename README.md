@@ -25,6 +25,7 @@ Game Patches for Minecraft 3DS. Customizing many features of the Game.
 | 0x4F3268 | Radius of Item Drops         | 0.02   | 32-Bit Floating Point | Gets multiplied by initial velocity when leave player hand. | ✕ |
 | 0x3EA090 | Swimming Movement Speed      | 0.02   | 32-Bit Floating Point | The movement speed of swimming and moving on the X-Axis. | ✕ |
 | 0x4F6354, 0x4F635C | Head Movement Restrictions | -90.0, +90.0 | 32-Bit Floating Point | Restricts the movement of the player's head. | ✕ |
+
 ```
 * Adding 0x100000 to each offset to get address' in Memory.
 * Each Offset/Address' Values are in Big Endian (BE).
