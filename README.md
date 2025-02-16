@@ -18,6 +18,7 @@ Game Patches for Minecraft 3DS. Customizing many features of the Game.
 0x9338B8                       = Mob-Spawner Count            | Default Value: 0      | 32-Bit Standard Bytes
 0x9338BC                       = Wither Count                 | Default Value: 0      | 32-Bit Standard Bytes
 0x9338C0                       = Elder Guardian Count         | Default Value: 0      | 32-Bit Standard Bytes
+0x6139F8                       = Jump Velocity                | Default Value: 0.4.21 | 32-Bit Floating Point
 
 * Adding 0x100000 to each offset to get address' in Memory.
 * Each Offset/Address' Values are in Big Endian (BE).
