@@ -20,6 +20,7 @@ Game Patches for Minecraft 3DS. Customizing many features of the Game.
 0x9338C0                       = Elder Guardian Count         | Default Value: 0      | 32-Bit Standard Bytes
 0x6139F8                       = Jump Velocity                | Default Value: 0.421  | 32-Bit Floating Point
 0x502C64                       = Falling Movement Speed       | Default Value: 0.02   | 32-Bit Floating Point
+0x4F3268                       = Radius of Item Drops         | Default Value: 0.02   | 32-Bit Floating Point
 
 * Adding 0x100000 to each offset to get address' in Memory.
 * Each Offset/Address' Values are in Big Endian (BE).
