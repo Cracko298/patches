@@ -22,7 +22,7 @@ Game Patches for Minecraft 3DS. Customizing many features of the Game.
 | 0x9338C0 | Elder Guardian Count         | 0      | 32-Bit Standard Bytes | The count of Elder Guardians' in the World. | ✓ |
 | 0x6139F8 | Jump Velocity                | 0.421  | 32-Bit Floating Point | A vector that get's multiplied by player base-jump, which increases it. | ✕ |
 | 0x502C64 | Falling Movement Speed       | 0.02   | 32-Bit Floating Point | The movement speed of being air-born and moving on X-Axis. | ✕ |
-| 0x4F3268 | Radius of Item Drops         | 0.02   | 32-Bit Floating Point | Gets multiplied by initial velocity when leave player hand. | ✕ |
+| 0x4F3268 | Radius of Item Drops         | 0.02   | 32-Bit Floating Point | Gets multiplied by initial velocity when leave player hand, in direction of calculated vector. | ✕ |
 | 0x3EA090 | Swimming Movement Speed      | 0.02   | 32-Bit Floating Point | The movement speed of swimming and moving on the X-Axis. | ✕ |
 | 0x4F6354, 0x4F635C | Head Movement Restrictions | -90.0, +90.0 | 32-Bit Floating Point | Restricts the movement of the player's head. | ✕ |
 
