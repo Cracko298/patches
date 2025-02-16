@@ -21,6 +21,7 @@ Game Patches for Minecraft 3DS. Customizing many features of the Game.
 0x6139F8                       = Jump Velocity                | Default Value: 0.421  | 32-Bit Floating Point | A vector that get's multiplied by player base-jump, which increases it.
 0x502C64                       = Falling Movement Speed       | Default Value: 0.02   | 32-Bit Floating Point | The movement speed of being air-born and moving on X-Axis.
 0x4F3268                       = Radius of Item Drops         | Default Value: 0.02   | 32-Bit Floating Point | Gets multiplied by initial velocity when leave player hand.
+0x3EA090                       = Swimming Movement Speed      | Default Value: 0.02   | 32-Bit Floating Point | The movement speed of swimming and moving on the X-Axis.
 
 * Adding 0x100000 to each offset to get address' in Memory.
 * Each Offset/Address' Values are in Big Endian (BE).
