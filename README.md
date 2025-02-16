@@ -1,8 +1,7 @@
 # GamePatches
 Game Patches for Minecraft 3DS. Customizing many features of the Game.
-
-## Addressing Table
-
+- If you used this guide/table to make your own Patches/Cheats. Please credit them properly, thanks!
+## Addressing Table:
 
 | Address | Name | Default Value | Value Type | Description | Is Value Variable? |
 | ------- | ---- | ------------- | ---------- | ----------- | ------------------ |
@@ -31,9 +30,6 @@ Game Patches for Minecraft 3DS. Customizing many features of the Game.
 * Each Offset/Address' Values are in Big Endian (BE).
 * These are all 'code.bin' offsets/configurations.
 ```
-
-### Address' Usage:
-- If you used this guide/table to make your own Patches/Cheats. Please credit them properly, thanks! -Cracko298
 
 ## Credits:
 - [Cracko298](https://github.com/Cracko298).
