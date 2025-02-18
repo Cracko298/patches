@@ -11,7 +11,7 @@ Game Patches for Minecraft 3DS. Customizing many features of the Game.
 | 0x2C5398 | Cloud Height                 | 0.33   | 32-Bit Floating Point | The value of the clouds above World-Height. | ✕ |
 | 0x00B4D4 | Camera Sensitivity           | 3.0    | 32-Bit Floating Point | Sets the initial Camera Sensitivity. | ✕ |
 | 0x2CEE80 | Camera FOV                   | 70.0   | 32-Bit Floating Point | Sets the initial Camera FOV (field of view). | ✕ |
-| 0x0A279C | Game Saturation per-weather  | 5.0    | 32-Bit Floating Point | Saturation for viewport when weather changes (do not affect normal). |✕ |
+| 0x0A279C | Game Saturation per-weather  | 5.0    | 32-Bit Floating Point | Saturation for viewport when weather changes (do not affect normal). | ✕ |
 | 0x933898 | Ender Dragon Count           | 0      | 32-Bit Standard Bytes | The count of Ender Dragons' in the World. | ✓ |
 | 0x9338A8 | Land Animal Count            | 0      | 32-Bit Standard Bytes | The count of Land Animals in the World. | ✓ |
 | 0x9338AC | Hostile Mob Count            | 0      | 32-Bit Standard Bytes | The count of Hostile Mobs in the World. | ✓ |
@@ -31,8 +31,14 @@ Game Patches for Minecraft 3DS. Customizing many features of the Game.
 * Assume all values are positive unless otherwise provided.
 * Adding 0x100000 to each offset to get address' in Memory.
 * Each Offset/Address' Values are in Big Endian (BE).
-* These are all 'code.bin' offsets/configurations.
+* These are all 'code.bin' offsets/configurations (above addressing table).
 ```
+
+## Memory Table:
+| Address | Name | Default Value | Value Type | Description | Is Value Variable? | 
+| ----------- | ---------- | ------------- | --------------------- | ----------- | ------------------ | 
+| 0x3504A092  | Get Mob ID | 0             | 16-Bit Standard Bytes | Gets the Mob ID from player hand (can be used to make conditional statements). | ✓ |
+| 0xB329E8, 0xB32948, 0xB32A00, 0xB32A18, 0xB32A30, 0xB32A48, 0xB32A60, 0xB32A78, 0xB32A90, 0xB32AB0 | Get Keypad Codes from 3DS console directly (can be used to make macros). | 0 | 32-Bit Standard Bytes | Gets the Keypad Inputs. | ✓ |
 
 ## Credits:
 - [Cracko298](https://github.com/Cracko298).
