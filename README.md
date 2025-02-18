@@ -33,8 +33,6 @@ Game Patches for Minecraft 3DS. Customizing many features of the Game.
 * These are all 'code.bin' offsets/configurations (above addressing table).
 ```
 <br>
-<br>
-<br>
 
 ## Memory Table:
 | Address | Name | Default Value | Value Type | Description | Is Value Variable? | 
