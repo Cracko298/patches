@@ -38,7 +38,7 @@ Game Patches for Minecraft 3DS. Customizing many features of the Game.
 | Address | Name | Default Value | Value Type | Description | Is Value Variable? | 
 | ----------- | ---------- | ------------- | --------------------- | ----------- | ------------------ | 
 | 0x3504A092  | Get Mob ID | 0             | 16-Bit Standard Bytes | Gets the Mob ID from player hand (can be used to make conditional statements). | ✓ |
-| 0xB329E8, 0xB32948, 0xB32A00, 0xB32A18, 0xB32A30, 0xB32A48, 0xB32A60, 0xB32A78, 0xB32A90, 0xB32AB0 | Get Keypad Codes from 3DS console directly (can be used to make macros). | 0 | 32-Bit Standard Bytes | Gets the Keypad Inputs. | ✓ |
+| 0xB329E8, 0xB32948, 0xB32A00, 0xB32A18, 0xB32A30, 0xB32A48, 0xB32A60, 0xB32A78, 0xB32A90, 0xB32AB0 | Get Keypad Codes | 0 | 32-Bit Standard Bytes | Gets the Keypad Inputs from 3DS console directly (can be used to make macros). | ✓ |
 
 ## Credits:
 - [Cracko298](https://github.com/Cracko298).
