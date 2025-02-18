@@ -26,19 +26,28 @@ Game Patches for Minecraft 3DS. Customizing many features of the Game.
 | 0x3EA090 | Swimming Movement Speed      | 0.02   | 32-Bit Floating Point | The movement speed of swimming and moving on the X-Axis. | ✕ |
 | 0x4F6354, 0x4F635C | Head Movement Restrictions | -90.0, +90.0 | 32-Bit Floating Point | Restricts the movement of the player's head. | ✕ |
 | 0x?????? | Render Distance              | 3.0    | 32-Bit Floating Point | Sets the initial render distance, and fog distance from player coords. | ✕ |
-
 ```
 * Assume all values are positive unless otherwise provided.
 * Adding 0x100000 to each offset to get address' in Memory.
 * Each Offset/Address' Values are in Big Endian (BE).
 * These are all 'code.bin' offsets/configurations (above addressing table).
 ```
+<br>
+<br>
+<br>
 
 ## Memory Table:
 | Address | Name | Default Value | Value Type | Description | Is Value Variable? | 
 | ----------- | ---------- | ------------- | --------------------- | ----------- | ------------------ | 
-| 0x3504A092  | Get Mob ID | 0             | 16-Bit Standard Bytes | Gets the Mob ID from player hand (can be used to make conditional statements). | ✓ |
+| 0x3504A092 | Get Mob ID | 0 | 16-Bit Standard Bytes | Gets the Mob ID from player hand (can be used to make conditional statements). | ✓ |
 | 0xB329E8, 0xB32948, 0xB32A00, 0xB32A18, 0xB32A30, 0xB32A48, 0xB32A60, 0xB32A78, 0xB32A90, 0xB32AB0 | Get Keypad Codes | 0 | 32-Bit Standard Bytes | Gets the Keypad Inputs from 3DS console directly (can be used to make macros). | ✓ |
+| 0x3018AEF0 | Is 3D Engine Running? | 1 | 32-Bit Standard Bytes | Enables/Disables 3D Engine | ✕ |
+```
+* Assume all values are positive unless otherwise provided.
+* These are true and always static address' inside of Memory.
+* Each Offset/Address' Values are in Big Endian (BE).
+* These are all 'memory' address' and have no coorilation with 'code.bin'.
+```
 
 ## Credits:
 - [Cracko298](https://github.com/Cracko298).
