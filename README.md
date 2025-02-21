@@ -50,3 +50,6 @@ Game Patches for Minecraft 3DS. Customizing many features of the Game.
 ## Credits:
 - [Cracko298](https://github.com/Cracko298).
 - [FLIPS (Floating IPS)](https://github.com/Alcaro/Flips).
+
+## Tutorial:
+- [Minecraft New Nintendo 3DS Edition - Making Game Patches (YouTube)](https://youtu.be/NhtE1RH-RJc?si=-dzcFFO0mKgVXEyH).
