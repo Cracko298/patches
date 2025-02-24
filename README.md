@@ -53,6 +53,7 @@ Game Patches for Minecraft 3DS. Customizing many features of the Game.
 
 ## Credits:
 - [Cracko298](https://github.com/Cracko298).
+- [DarkSiders](https://github.com/LeDarksiders).
 - [FLIPS (Floating IPS)](https://github.com/Alcaro/Flips).
 
 ## Tutorial:
