@@ -27,6 +27,7 @@ Game Patches for Minecraft 3DS. Customizing many features of the Game.
 | 0x4F6354, 0x4F635C | Head Movement Restrictions | -90.0, +90.0 | 32-Bit Floating Point | Restricts the movement of the player's head. | ✕ |
 | 0x?????? | Render Distance              | 3.0    | 32-Bit Floating Point | Sets the initial render distance, and fog distance from player coords. | ✕ |
 | 0x500BF0, 0x50370C, 0x507270, 0x507274, 0x50804C, 0x6218F4, 0x635020, 0x888BB8 | Player Scaling | 1.62 | 32-Bit Floating Point | Values that scale the player's hitbox, and portions to work at different scaling sizes. | ✕ |
+| 0x3ED468 | World Gravity                | 0.08   | 32-Bit Floating Point | Sets the gravity of the World (all entities). | ✕ |
 ```
 * Assume all values are positive unless otherwise provided.
 * Adding 0x100000 to each offset to get address' in Memory.
