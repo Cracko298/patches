@@ -11,7 +11,7 @@ Game Patches for Minecraft 3DS. Customizing many features of the Game.
 | 0x2C5398 | Cloud Height                 | 0.33   | 32-Bit Floating Point | The value of the clouds above World-Height. | ✕ |
 | 0x00B4D4 | Camera Sensitivity           | 3.0    | 32-Bit Floating Point | Sets the initial Camera Sensitivity. | ✕ |
 | 0x4EBA90 | Fall Damage Constant         | -9.01  | 32-Bit Floating Point | Constant*Velocity on Y-Axis. | ✕ |
-| 0x0C3E4C | Hand Damage                  | 1.0    | 32-Bit Floating Point | Damage delt via Player Hand. | ✕ |
+| 0x0C3E4C | Damage Multiplier            | 1.0    | 32-Bit Floating Point | Damage multiplier for everything. | ✕ |
 | 0x2CEE80 | Camera FOV                   | 70.0   | 32-Bit Floating Point | Sets the initial Camera FOV (field of view). | ✕ |
 | 0x0A279C | Game Saturation per-weather  | 5.0    | 32-Bit Floating Point | Saturation for viewport when weather changes (do not affect normal). | ✕ |
 | 0x933898 | Ender Dragon Count           | 0      | 32-Bit Standard Bytes | The count of Ender Dragons' in the World. | ✓ |
