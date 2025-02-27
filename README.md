@@ -31,7 +31,7 @@ Game Patches for Minecraft 3DS. Customizing many features of the Game.
 | 0x500BF0, 0x50370C, 0x507270, 0x507274, 0x50804C, 0x6218F4, 0x635020, 0x888BB8 | Player Scaling | 1.62 | 32-Bit Floating Point | Values that scale the player's hitbox, and portions to work at different scaling sizes. | ✕ |
 | 0x3ED468 | World Gravity                | 0.08   | 32-Bit Floating Point | Sets the gravity of the World (all entities). | ✕ |
 | 0x098D00 | Creative Mode Up/Down Velocity | 0.15 | 32-Bit Floating Point | Sets the up/down velocity for Creative Mode when acsending/descending. | ✕ |
-| 0x9C1E48, 0x9C1E4C, 0x9C1E50 | PlayerX/Y/Z | 0.0 | 32-Bit Floating Point | The player coordinates, cannot be changed directly. | ✕ |
+| 0x9C1E48, 0x9C1E4C, 0x9C1E50 | Player.X, Player.Y, Player.Z | 0.0 | 32-Bit Floating Point | The player coordinates, cannot be changed directly. | ✕ |
 
 ```
 * Assume all values are positive unless otherwise provided.
