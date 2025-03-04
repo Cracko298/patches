@@ -32,8 +32,8 @@ Game Patches for Minecraft 3DS. Customizing many features of the Game.
 | 0x3ED468 | World Gravity                | 0.08   | 32-Bit Floating Point | Sets the gravity of the World (all entities). | ✕ |
 | 0x098D00 | Creative Mode Up/Down Velocity | 0.15 | 32-Bit Floating Point | Sets the up/down velocity for Creative Mode when acsending/descending. | ✕ |
 | 0x09870C | Player V-Velocity            | 1.0    | 32-Bit Floating Point | The Players' Velocity-Vector, get's multiplied by inverse of Player Speed. | ✕ |
-| 0x4EA0A0 | All Entity Walking Speed     | 0.5460 | 32-Bit Floating Point | Speed of every entities Walk/Wander Phase. | ✕ |
-| 0x34BF14 | Player Running Speed         | 1.0    | 32-Bit Floating Point | The speed of the Player while Running. | ✕ |
+| 0x3EA0A0 | All Entity Walking Speed     | 0.5460 | 32-Bit Floating Point | Speed of every entities Walk/Wander Phase. | ✕ |
+| 0x24BF14 | Player Running Speed         | 1.0    | 32-Bit Floating Point | The speed of the Player while Running. | ✕ |
 
 
 ```
