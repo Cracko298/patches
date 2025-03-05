@@ -52,6 +52,21 @@ Game Patches for Minecraft 3DS. Customizing many features of the Game.
 | 0x3018AEF0 | Is 3D Engine Running? | 1 | 32-Bit Standard Bytes | Enables The 3D Engine | ✕ |
 | 0xAC1E48, 0xAC1E4C, 0xAC1E50 | Player.X, Player.Y, Player.Z | 0.0 | 32-Bit Floating Point | The player coordinates, cannot be changed directly. | ✕ |
 ```
+All Player.POS are as follows:
+Offset-0x04 = Player.Y Off.
+Offset-0x08 = Player.X Off.
+Offset-0x00 = Player.Z Off.
+
+Offset/Address':
+0xAC1E50 = Player.Z #1
+0xAC1E5C = Player.Z #2 
+0xAC29A8 = Player.Z #3 
+0xAC38F0 = Player.Z #4
+0xAC38FC = Player.Z #5
+0xB2DE1C = Player.Z #6
+```
+
+```
 * Assume all values are positive unless otherwise provided.
 * These are true and always static address' inside of Memory.
 * Each Offset/Address' Values are in Big Endian (BE).
